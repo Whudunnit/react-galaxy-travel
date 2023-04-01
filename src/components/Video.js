@@ -1,21 +1,21 @@
 import React from 'react'
-import spaceVideo from "../assets/space.mp4"
-import {Link} from "react-router-dom"
-import "./Video.css"
+import spaceVideo from '../assets/space.mp4'
+import {Link} from 'react-router-dom'
+import './Video.css'
 
 const Video = () => {
   return (
-    <div className ="hero">
+    <div className='hero'>
         <video autoPlay loop muted id="video">
             <source src={spaceVideo} type="video/mp4" />
         </video>
+
         <div className="content">
             <h1>Galaxy Travel</h1>
-            <p>A világ első civil űrutazás szervezője.</p>
+            <p>A világ első civil űrutazás szerverzője.</p>
             <div>
-                <Link to="/prices"className="btn">Árak</Link>
-                <Link to="/training"className="btn">Képzés</Link>
-                <Link to="/contact" className="btn btn-light">Kapcsolat</Link>
+                <Link to="/training" className='btn'>Képzés</Link>
+                <Link to="/contact" className='btn btn-light'>Kilövés</Link>
             </div>
         </div>
     </div>

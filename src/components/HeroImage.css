@@ -8,7 +8,7 @@
 
 .hero-img::before{
 
-    content:"";
+    content: '';
     background: url("../assets/heroImg.jpg") no-repeat center/cover;
     width: 100%;
     height: 100%;
@@ -41,7 +41,7 @@
 @media(max-width: 640px){
 
     .hero-img .heading h1{
-        
+
         font-size: 2rem;
     }
 }

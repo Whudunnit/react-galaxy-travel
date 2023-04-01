@@ -24,7 +24,7 @@
     top: 40vh;
 }
 
-.hero .conent h1{
+.hero .content h1{
 
     font-size: 4rem;
     letter-spacing: 2px;
@@ -46,7 +46,7 @@
 
     .hero .content p{
 
-        font-size:1.4rem;
+        font-size: 1.4rem;
         margin-bottom: 1.6rem;
     }
 

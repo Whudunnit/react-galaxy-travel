@@ -8,24 +8,25 @@ const Navbar = () => {
 
   const [click, setClick] = useState(false);  
   const handleClick = () => setClick(!click);  
-  const[bg, setBg] = useState(false);
 
-  const changeBg = () =>{
+  const [bg, setBg] = useState(false);
 
-    if(window.scrollY >= 80){
-        
-        setBg(true);
-    }
-    else{
-        
-        setBg(false);
-    }
+  const changeBg = () => {
+
+        if(window.scrollY >= 80){
+
+            setBg(true);
+        }
+        else{
+
+            setBg(false);
+        }
   }
 
-  window.addEventListener("scroll", changeBg)
+  window.addEventListener("scroll", changeBg);
 
   return (
-    <header className={bg ? "header header-bg" : "header"}>
+    <header className={bg ? 'header header-bg' : 'header'}>
         <Link to="/"><h1>Galaxy Travel</h1></Link>
         <ul className={click ? 'nav-menu nav-active' : 'nav-menu'} >
             <li> <Link to="/">Kezdőoldal</Link> </li>
@@ -36,7 +37,7 @@ const Navbar = () => {
         <div className="hamburger" onClick={handleClick}>
             {
                 click ? <FaTimes size={20} style={{color: "#fff"}} />
-                      : <FaBars size={20} style={{color: "#fff"}} />
+                      : <FaBars size={20} style={{color: "#fff"}} />  
             }
         </div>
     </header>

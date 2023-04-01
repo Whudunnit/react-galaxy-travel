@@ -2,6 +2,7 @@
 
     width: 100%;
     padding: 6rem 1rem;
+    
 }
 
 .card-container{
@@ -70,4 +71,3 @@
         grid-template-columns: 1fr;
     }
 }
-

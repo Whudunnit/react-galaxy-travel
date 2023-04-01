@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroImage from "../components/HeroImage"
-import Pricing from "../components/Pricing"
+import HeroImage from '../components/HeroImage'
+import Pricing from '../components/Pricing'
 
 const Prices = () => {
   return (
